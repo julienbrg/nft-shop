@@ -31,7 +31,7 @@ yarn install
 Compile the smart contracts with Hardhat:
 
 ```sh
-$ yarn compile
+yarn compile
 ```
 
 ### TypeChain
@@ -39,7 +39,7 @@ $ yarn compile
 Compile the smart contracts and generate TypeChain artifacts:
 
 ```sh
-$ yarn typechain
+yarn typechain
 ```
 
 ### Lint Solidity
@@ -47,7 +47,7 @@ $ yarn typechain
 Lint the Solidity code:
 
 ```sh
-$ yarn lint:sol
+yarn lint:sol
 ```
 
 ### Lint TypeScript
@@ -55,7 +55,7 @@ $ yarn lint:sol
 Lint the TypeScript code:
 
 ```sh
-$ yarn lint:ts
+yarn lint:ts
 ```
 
 ### Test
@@ -63,7 +63,7 @@ $ yarn lint:ts
 Run the Mocha tests:
 
 ```sh
-$ yarn test
+yarn test
 ```
 
 ### Coverage
@@ -71,7 +71,7 @@ $ yarn test
 Generate the code coverage report:
 
 ```sh
-$ yarn coverage
+yarn coverage
 ```
 
 ### Report Gas
@@ -79,7 +79,7 @@ $ yarn coverage
 See the gas usage per unit test and average gas per method call:
 
 ```sh
-$ REPORT_GAS=true yarn test
+REPORT_GAS=true yarn test
 ```
 
 ### Clean
@@ -87,7 +87,7 @@ $ REPORT_GAS=true yarn test
 Delete the smart contract artifacts, the coverage reports and the Hardhat cache:
 
 ```sh
-$ yarn clean
+yarn clean
 ```
 
 ### Deploy
@@ -95,7 +95,7 @@ $ yarn clean
 Deploy the contracts to Hardhat Network:
 
 ```sh
-$ yarn deploy --greeting "Bonjour, le monde!"
+yarn deploy --greeting "Bonjour, le monde!"
 ```
 
 ## Syntax Highlighting
